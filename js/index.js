@@ -4,7 +4,7 @@
 // which will act like a small database. Objects are made
 // up of various 'property: value' pairs (think dictionary).
 // All properties must be unique (i.e. not used more than once).
-var data = {
+var data = { 
 	royals: { 
 		// console.log();
 		image: 'images/teams/royals.png',

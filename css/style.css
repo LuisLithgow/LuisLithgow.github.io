@@ -6,7 +6,7 @@ body {
 	/*background-image: url(../images/batball.jpg) ;*/
 }
 
-header {
+header { 
 	/*background-color: rgba(241, 237, 237, 0.59);*/
 	background-color: #E63946;
 	height: 122px;
@@ -297,7 +297,6 @@ h3#teamheading {
 	nav {
 		width: 100%; 
 	}
-
 /*	li.dropdown {
     display: inline-block;
 }
@@ -353,6 +352,64 @@ h3#teamheading {
 }
 
 
+
+@media screen and (min-width:708px) and (max-width:800px)  {
+	nav {
+		width: 100%; 
+	}
+/*	li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}*/
+	.left-align {
+		/*width: 10%;*/
+		float: left;
+	}
+	.left-center {
+		width: 35%;
+		float: left;
+		margin-left: 45px;
+	}
+	.right-center {
+		width: 40%;
+		float: left;
+		margin: -814px 0 0 350px ;
+	}
+	footer {
+		margin-top: 900px;
+	}
+	#mid-div {
+		width:90%;
+	}
+	h2 {
+		margin: 0 0 0 180px;
+	}
+	.image-1 {
+		width: 30%;
+	}
+	.image-2 {
+		width: 50%;
+	}
+	.mlb_logo {
+		margin: 0 0 -241px 10px;
+		/*width: 20%;*/
+	}
+	span  {
+		display: none;
+	}
+
+	#myDropdown {
+		display: block;
+		position: absolute;
+	}
+}
 
 
 

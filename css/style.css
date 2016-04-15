@@ -353,7 +353,7 @@ h3#teamheading {
 
 
 
-@media screen and (min-width:708px) and (max-width:800px)  {
+@media screen and (min-width:708px) and (max-width:1150px)  {
 	nav {
 		width: 100%; 
 	}
@@ -373,12 +373,12 @@ h3#teamheading {
 		float: left;
 	}
 	.left-center {
-		width: 35%;
+		width: 25%;
 		float: left;
 		margin-left: 45px;
 	}
 	.right-center {
-		width: 40%;
+		width: 25%;
 		float: left;
 		margin: -814px 0 0 350px ;
 	}

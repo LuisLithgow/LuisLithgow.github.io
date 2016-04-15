@@ -1,0 +1,361 @@
+body {
+	font-size: 16px;
+	font-family: 'droid sans' , helvetica, sans-serif;
+	color:#1D3557; 
+	background-color: #F1FAEE;
+	/*background-image: url(../images/batball.jpg) ;*/
+}
+
+header {
+	/*background-color: rgba(241, 237, 237, 0.59);*/
+	background-color: #E63946;
+	height: 122px;
+	margin-bottom: 50px;	
+	border-radius: 3px;
+	/*position: fixed;*/
+	/*text-align: center;*/
+	/*position: fixed;*/
+
+}
+
+header h1 {
+	padding: 0 0 0 20px;	
+	font-size: 48px;
+	float: left;
+	margin-top: 15px;
+	
+}
+
+header nav {
+	margin-left: 200px; 
+}
+
+header a {
+	text-decoration: none;
+	color:#F1FAEE;
+	font-weight: bold;
+	font-family: 'droid sans';
+}
+
+header nav a {
+	float: right;
+	/*text-indent: 30;*/
+	margin: 100px 10px 10px 10px;
+}
+
+.sub-title {
+	color:#1D3557;
+	font-family: 
+	font-size: ;
+	margin:74px 83px 10px -188px;	
+	/*padding: 90px 10px 0 0;*/
+	float: left;
+	font-size: 15px;	
+}
+
+.buy {
+	margin-right: 40px;
+}
+
+.middle-body {
+	/*border: solid black 2px;*/
+	width: 100%;
+	height: 180px;
+}
+
+.left-align {
+	/*margin: 20px 10px 50px 10px;*/
+	float: left;
+	/*padding-top: 10px;*/
+	height: 310px;
+	width: 40px;
+	margin-top: 110px;
+	/*margin-left: 20px;*/
+	/*border-radius: 20px;*/
+	font-weight: bold;
+	/*background-color: rgba(241, 237, 237, 0.59);*/
+	/*background:#E63946;*/
+}
+.facebook {
+	margin: 5px 10px 0 18px;
+	padding: 0 0 0 19px;
+	/*border: 2px solid black;*/
+	/*background: #A8DADC;*/
+}
+.facebook a {
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size: 39px;
+	font-weight: bold;
+
+}
+.twitter {
+	margin: 2px 10px 0 20px;
+	padding-left: 7px;
+	/*border: 2px solid black;*/
+	/*background: #E63946;*/
+}
+
+.twitter a img {
+	width: 40px;
+	height: 40px;
+}
+.linkedin {
+	margin: 2px 10px 0 15px;
+	padding-left: 15px;
+	/*border: 2px solid black;*/
+	/*background: #A8DADC;*/
+}
+
+.linkedin a {
+	font-size: 33px;
+	font-weight: bold;
+	color:#0077B5;
+}
+.email {
+	margin: 2px 10px 0 18px;
+	padding-left: 10px;	
+	/*border: 2px solid black;*/
+	/*background: #E63946;*/
+}
+.email a img {
+	width: 40px;
+	height: 40px;
+}
+.center-align {
+	width: 100%;
+}
+.middle-center {
+	padding:5px;
+	border-radius: 15px;
+	border: solid #1D3557 3px;
+	/*background-color: rgba(241, 237, 237, 0.59);*/
+	background-color: #E63946;
+	width: 510px;
+	height: 375px;
+	float: left;
+	margin:20px 5px 5px 30px;
+	overflow: scroll;
+}
+.middle-center h3 {
+	color:#1D3557;
+	font-size: 20px;
+}
+.left-center {
+	float: left;
+	padding:5px;
+	margin:20px 0 5px 90px;
+	border: solid #1D3557 3px;
+	/*background-color: rgba(241, 237, 237, 0.59);*/
+	background-color: #E63946;
+	border-radius: 15px;
+}
+
+.left-center ol {
+	overflow: scroll;
+	height: 320px;
+	width: 140px;
+	background-color: 
+}
+
+.right-center {
+	float: left;
+	padding: 5px;
+	margin:20px 5px 5px 30px;
+	border: solid #1D3557 3px;
+	/*background-color: rgba(241, 237, 237, 0.59);*/
+	background-color: #E63946;
+	border-radius: 15px;
+
+}
+
+.right-center ol {
+	overflow: scroll;
+	height: 320px;
+	width: 150px;
+
+}
+
+ ol li a {
+	text-decoration: none;
+	font-size: 17px ;
+}
+
+a {
+	text-decoration: none;
+}
+
+ol li {
+	margin-bottom: 12px; 
+}
+
+li a {
+	color:#F1FAEE;
+	margin-bottom: 60px; 
+}
+h3 {
+	margin: 2px 2px 2px 28px;
+	color:#1D3557;
+	font-size: 18px;
+}
+
+.how-to  {
+	text-align: center;
+	margin-right: 50px;
+}
+
+
+footer {
+	/*background-color: rgba(241, 237, 237, 0.59);*/
+	background-color: #E63946;
+	height: 125px;
+	margin-top: 455px;
+	padding-top: 10px;
+}
+
+footer nav ul li a {  
+	/*margin-top: 40px;*/
+	text-decoration: none;
+	color:#F1FAEE;
+	/*font-weight: bold;*/
+	font-family: 'droid sans';
+	list-style-type: none;
+}
+
+footer nav ul {
+	/*margin-top: 40px;*/
+	list-style-type:none;
+}
+
+footer nav ul li {
+	padding-top: 5px;
+}
+
+p {
+	text-align: center;
+	margin: 90px 20px 0 330px;
+	width: 500px; 
+}
+
+.phone {
+	margin-top: 5px;
+	margin-left: 253px;
+}
+
+.arrow2 {
+	/*margin-left: 390px;*/
+	float: right;	
+}
+
+span i {
+	margin-top:50px;
+}
+
+.mlb_logo {
+	width: 495px;
+    height: 331px;
+    margin: -158px 20px 20px 3px;
+}
+
+.image-2 {
+	margin: 0 0 0 30px;
+	width: 280px;
+	height: 250px;
+	border-radius: 5px;
+}
+
+h5 {
+	margin: 3px 0 4px 260px;	
+	color:#E63946;
+	font-size:16px;
+}
+
+h3#teamheading {
+	text-align: center;
+	margin-right: 40px;
+	margin-bottom: 10px;
+	color:#E63946;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.image-1 {
+	margin-bottom: 32px;
+}
+
+.prediction {
+	text-indent: 40px;
+}
+
+.menuIcon {
+	float: right;
+}
+
+
+
+
+@media screen and (min-width:200px) and (max-width:708px)  {
+	nav {
+		width: 100%; 
+	}
+
+/*	li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}*/
+	.left-align {
+		/*width: 10%;*/
+		float: left;
+	}
+	.left-center {
+		width: 35%;
+		float: left;
+		margin-left: 45px;
+	}
+	.right-center {
+		width: 40%;
+		float: left;
+		margin: -814px 0 0 350px ;
+	}
+	footer {
+		margin-top: 900px;
+	}
+	#mid-div {
+		width:90%;
+	}
+	h2 {
+		margin: 0 0 0 180px;
+	}
+	.image-1 {
+		width: 30%;
+	}
+	.image-2 {
+		width: 50%;
+	}
+	.mlb_logo {
+		margin: 0 0 -241px 10px;
+		/*width: 20%;*/
+	}
+	span  {
+		display: none;
+	}
+
+	#myDropdown {
+		display: block;
+		position: absolute;
+	}
+}
+
+
+
+
+
+
+
+

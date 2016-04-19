@@ -1,4 +1,4 @@
-// $(function() {  
+$(document).ready(function() { 
 
 // 1 - use the 'data' variable to store an object '{}'
 // which will act like a small database. Objects are made
@@ -269,8 +269,7 @@ var data = {
 	// };
 
 	
-
-// });
+});
 
 
 

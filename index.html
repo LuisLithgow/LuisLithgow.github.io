@@ -2,8 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Your description goes here">
 			<!-- <meta name="viewport" content="width=device-wdth, initial-scale=1"> -->
+		
 
 
 
@@ -12,6 +14,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="font-awesome-4.6.1/css/font-awesome.min.css">
 		<link rel="stylesheet" href="font-awesome-4.6.1/css/font-awesome-animation.min.css">
+		<!-- <link rel="stylesheet" href="css/reset.css" type="text/css"> -->
 		<link rel="stylesheet" href="css/normalize.css" type="text/css">
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 	</head>
@@ -55,7 +58,7 @@
 			</header>
 
 
-			<div class="middle-body">
+			<div id="middle-body">
 				
 				<div class="left-align">
 					<div class="facebook"> 
@@ -74,6 +77,7 @@
 
 
 				<div class="center-align">
+
 					<h2 class="how-to">Scroll below to find your team!</h2>
 					<div class="left-center">
 						<h3>American League</h3>
@@ -102,7 +106,7 @@
 						<h3>
 							Click on the team you're looking for the quick and easy info you need!
 						</h3>
-						<span>
+						<span class="arrow1">
 							<i class="fa fa-3x fa-arrow-circle-left faa-horizontal animated" aria-hidden="true"></i>
 						</span>
 
@@ -133,7 +137,6 @@
 							<li id="braves"><a href="#">Atlanta Braves</a></li>
 						</ol>
 					</div>
-					
 				</div>
 
 			</div>
@@ -156,6 +159,31 @@
 
 	
 		<script src='js/jquery-2.1.4.js'></script>
+		<script src="js/restive.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+    			$('body').restive({
+			        breakpoints: ['240', '320', '480', '640', '960', '1024', '1280'],
+			        classes: ['css-240', 'css-320', 'css-480', 'css-640', 'css-960', 'css-1024', 'css-1280', 'css-1680', 'css-1920']
+			    });
+				$('body').restive({
+			     platform: 'ios', 
+			     breakpoints: ['240', '320', '480', '640', '960', '1024'],
+			     classes: ['css-i-240', 'css-i-320', 'css-i-480', 'css-i-640', 'css-i-960', 'css-i-1024']
+				});
+			    
+				$('body').restive({
+			     platform: 'android', 
+			     breakpoints: ['240', '320', '480', '640', '960', '1024'],
+			     classes: ['css-a-240', 'css-a-320', 'css-a-480', 'css-a-640', 'css-a-960', 'css-a-1024']
+				});
+				$('body').restive({
+			 	 breakpoints: ['768', '1280'],
+			     classes: ['768-c', '1280-c', '1600-c'],
+			  	 force_dip: true
+				});
+		});
+		</script>
 		<script src="js/index.js"></script>
 
 	</body>

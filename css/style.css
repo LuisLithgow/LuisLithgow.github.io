@@ -1,3 +1,21 @@
+*, *:before, *:after { 
+  /*the star '*'means all*/
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#container {
+	/*width: 100%;*/
+	/*overflow: auto;*/
+}
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both; 
+     visibility: hidden;
+     line-height: 0; 
+     height: 0;
+}
 body {
 	font-size: 16px;
 	font-family: 'droid sans' , helvetica, sans-serif;
@@ -57,10 +75,11 @@ header nav a {
 	margin-right: 40px;
 }
 
-.middle-body {
+#middle-body {
 	/*border: solid black 2px;*/
-	width: 100%;
-	height: 180px;
+	width: 0 auto;
+	height: 500px;
+	/*vertical-align: baseline;*/
 }
 
 .left-align {
@@ -68,7 +87,7 @@ header nav a {
 	float: left;
 	/*padding-top: 10px;*/
 	height: 310px;
-	width: 40px;
+	width: 10%;
 	margin-top: 110px;
 	/*margin-left: 20px;*/
 	/*border-radius: 20px;*/
@@ -122,7 +141,7 @@ header nav a {
 	height: 40px;
 }
 .center-align {
-	width: 100%;
+	/*width: 100%;*/
 }
 .middle-center {
 	padding:5px;
@@ -130,20 +149,35 @@ header nav a {
 	border: solid #1D3557 3px;
 	/*background-color: rgba(241, 237, 237, 0.59);*/
 	background-color: #E63946;
-	width: 510px;
-	height: 375px;
+	width: 550px;
+	height: 406px;
 	float: left;
+	/*text-align: center;*/
 	margin:20px 5px 5px 30px;
+	/*margin: 0 auto;*/
 	overflow: scroll;
+	text-align: center;
 }
 .middle-center h3 {
 	color:#1D3557;
 	font-size: 20px;
 }
+
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+div h3 {
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom:5px;
+	font-size: 19px; 
+}
 .left-center {
 	float: left;
 	padding:5px;
-	margin:20px 0 5px 90px;
+	margin:20px 0 5px 60px;
+	/*margin: 0 auto;*/
 	border: solid #1D3557 3px;
 	/*background-color: rgba(241, 237, 237, 0.59);*/
 	background-color: #E63946;
@@ -153,14 +187,15 @@ header nav a {
 .left-center ol {
 	overflow: scroll;
 	height: 320px;
-	width: 140px;
+	width: 165px;
 	background-color: 
 }
 
 .right-center {
 	float: left;
 	padding: 5px;
-	margin:20px 5px 5px 30px;
+	margin:20px 5px 5px 40px;
+	/*margin: 0 auto;*/
 	border: solid #1D3557 3px;
 	/*background-color: rgba(241, 237, 237, 0.59);*/
 	background-color: #E63946;
@@ -171,7 +206,7 @@ header nav a {
 .right-center ol {
 	overflow: scroll;
 	height: 320px;
-	width: 150px;
+	width: 160px;
 
 }
 
@@ -207,8 +242,8 @@ h3 {
 footer {
 	/*background-color: rgba(241, 237, 237, 0.59);*/
 	background-color: #E63946;
-	height: 125px;
-	margin-top: 455px;
+	height: 143px;
+	margin-top: 100px;
 	padding-top: 10px;
 }
 
@@ -238,7 +273,11 @@ p {
 
 .phone {
 	margin-top: 5px;
-	margin-left: 253px;
+	margin-left: -32223px;
+}
+
+.arrow1 {
+	float: left;
 }
 
 .arrow2 {
@@ -289,126 +328,106 @@ h3#teamheading {
 .menuIcon {
 	float: right;
 }
-
-
-
-
-@media screen and (min-width:200px) and (max-width:708px)  {
-	nav {
-		width: 100%; 
-	}
-/*	li.dropdown {
-    display: inline-block;
+#contact-left {
+	margin-top: 50px;
+	margin-right: 50px;
+}
+.center-align p {
+	margin-left:-10px;
+}
+form ul li {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+button {
+	border-radius: 5px;
+	background: #E63946;
+	color:#F1FAEE;
+}
+#aboutus-center {
+	margin-left: 400px;	
 }
 
-.dropdown-content {
+
+
+/*@media screen and (min-width:200px) and (max-width:708px)  {
+	/** {
+	width: 100%;
+	border: 1px solid black;
+	-moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+}*/
+
+
+
+
+
+@media screen and (min-device-width:1300px) and (max-device-width:1920px)  {
+	/** {
+	width: 100%;
+	border: 1px solid black;
+	-moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+}*/
+
+.middle-center {
+	height: 410px;
+	width: 600px;
+}
+footer {
+	margin-top: 180px;
+}
+
+.left-center {
+	margin-left: 120px;
+	height: 410px;
+}
+.left-center ol {
+	width: 200px;
+}
+.right-center ol{
+	width: 200px;
+}
+.right-center {
+	height: 410px;
+}
+
+h2.how-to {
+	margin-right: 370px;
+}
+
+#aboutus-center {
+	margin-left: 610px;
+	margin-top: 200px;	
+	font-size: 18px;
+}
+.aboutus-footer {
+	margin-top: 210px;
+	height: 0 auto;
+}
+	
+form ul li {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+form h3 {
+	margin:20px;
+}
+.footer-contact  {
+	margin-top: 290px;
+}
+
+/*.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    **Will possibly be used for menu**
 }*/
-	.left-align {
-		/*width: 10%;*/
-		float: left;
-	}
-	.left-center {
-		width: 35%;
-		float: left;
-		margin-left: 45px;
-	}
-	.right-center {
-		width: 40%;
-		float: left;
-		margin: -814px 0 0 350px ;
-	}
-	footer {
-		margin-top: 900px;
-	}
-	#mid-div {
-		width:90%;
-	}
-	h2 {
-		margin: 0 0 0 180px;
-	}
-	.image-1 {
-		width: 30%;
-	}
-	.image-2 {
-		width: 50%;
-	}
-	.mlb_logo {
-		margin: 0 0 -241px 10px;
-		/*width: 20%;*/
-	}
-	span  {
-		display: none;
-	}
-
-	#myDropdown {
-		display: block;
-		position: absolute;
-	}
-}
-
-
-
-@media screen and (min-width:708px) and (max-width:1150px)  {
-	nav {
-		width: 100%; 
-	}
-/*	li.dropdown {
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}*/
-	.left-align {
-		/*width: 10%;*/
-		float: left;
-	}
-	.left-center {
-		width: 25%;
-		float: left;
-		margin-left: 45px;
-	}
-	.right-center {
-		width: 25%;
-		float: left;
-		margin: -814px 0 0 350px ;
-	}
-	footer {
-		margin-top: 900px;
-	}
-	#mid-div {
-		width:90%;
-	}
-	h2 {
-		margin: 0 0 0 180px;
-	}
-	.image-1 {
-		width: 30%;
-	}
-	.image-2 {
-		width: 50%;
-	}
-	.mlb_logo {
-		margin: 0 0 -241px 10px;
-		/*width: 20%;*/
-	}
-	span  {
-		display: none;
-	}
-
-	#myDropdown {
-		display: block;
-		position: absolute;
-	}
+	
 }
 
 

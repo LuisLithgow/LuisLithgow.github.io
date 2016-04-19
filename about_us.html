@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Your description goes here">
 			<!-- <meta name="viewport" content="width=device-wdth, initial-scale=1"> -->
 
@@ -10,7 +11,8 @@
 		<title>About Us-QuickFo</title>
 		
 		<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="font-awesome-4.6.1/css/font-awesome.min.css">
+		<link rel="stylesheet" href="font-awesome-4.6.1/css/font-awesome-animation.min.css">
 		<link rel="stylesheet" href="css/normalize.css" type="text/css">
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 	</head>
@@ -33,7 +35,7 @@
 
 			<div class="middle-body">
 				
-				<div class="left-align">
+				<div class="left-align" id="contact-left">
 					<div class="facebook"> 
 						<a href="https://www.facebook.com/" target="_blank">f</a>
 					</div>
@@ -49,7 +51,7 @@
 				</div>
 
 
-				<div class="center-align">
+				<div class="center-align" id="aboutus-center">
 
 					<p>
 						QuickFo is a website designed to assist all who are a bit behind on all news MLB. Much of us are tired of not knowing what many of our loved ones or co-workers are constanlty talking about when it comes to baseball. The have love and passion for America's tradional past time, while we try to catch up and not seem lost in constant conversations. 
@@ -63,7 +65,7 @@
 
 			</div>
 
-			<footer>
+			<footer class="aboutus-footer">
 				<nav>
 					<ul>
 						<li><a href="about_us.html" target="_blank">About Us</a></li>
@@ -80,6 +82,33 @@
 
 
 	
-		
+		<script src='js/jquery-2.1.4.js'></script>
+		<script src="js/restive.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+    			$('body').restive({
+			        breakpoints: ['240', '320', '480', '640', '960', '1024', '1280'],
+			        classes: ['css-240', 'css-320', 'css-480', 'css-640', 'css-960', 'css-1024', 'css-1280']
+			    });
+				$('body').restive({
+			     platform: 'ios', 
+			     breakpoints: ['240', '320', '480', '640', '960', '1024'],
+			     classes: ['css-i-240', 'css-i-320', 'css-i-480', 'css-i-640', 'css-i-960', 'css-i-1024']
+				});
+			    
+				$('body').restive({
+			     platform: 'android', 
+			     breakpoints: ['240', '320', '480', '640', '960', '1024'],
+			     classes: ['css-a-240', 'css-a-320', 'css-a-480', 'css-a-640', 'css-a-960', 'css-a-1024']
+				});
+				$('body').restive({
+			 	 breakpoints: ['768', '1280'],
+			     classes: ['768-c', '1280-c'],
+			  	 force_dip: true
+				});
+		});
+		</script>
+		<script src="js/index.js"></script>
+
 	</body>
 </html>

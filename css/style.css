@@ -194,7 +194,7 @@ div h3 {
 .right-center {
 	float: left;
 	padding: 5px;
-	margin:20px 5px 5px 40px;
+	margin:20px 5px 5px 23px;
 	/*margin: 0 auto;*/
 	border: solid #1D3557 3px;
 	/*background-color: rgba(241, 237, 237, 0.59);*/
@@ -381,7 +381,7 @@ footer {
 }
 
 .left-center {
-	margin-left: 120px;
+	margin-left: 100px;
 	height: 410px;
 }
 .left-center ol {

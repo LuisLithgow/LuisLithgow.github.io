@@ -155,7 +155,7 @@ header nav a {
 	/*text-align: center;*/
 	margin:20px 5px 5px 30px;
 	/*margin: 0 auto;*/
-	overflow: auto;
+	overflow: auto: ;
 	text-align: center;
 }
 .middle-center h3 {
@@ -364,13 +364,13 @@ button {
 
 
 @media screen and (min-device-width:1300px) and (max-device-width:1920px)  {
-	/** {
+	* {
 	width: 100%;
 	border: 1px solid black;
 	-moz-box-sizing: border-box; 
   -webkit-box-sizing: border-box; 
   box-sizing: border-box; 
-}*/
+}
 
 .middle-center {
 	height: 410px;

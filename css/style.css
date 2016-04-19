@@ -155,7 +155,7 @@ header nav a {
 	/*text-align: center;*/
 	margin:20px 5px 5px 30px;
 	/*margin: 0 auto;*/
-	overflow: scroll;
+	overflow: auto;
 	text-align: center;
 }
 .middle-center h3 {
@@ -185,7 +185,7 @@ div h3 {
 }
 
 .left-center ol {
-	overflow: scroll;
+	overflow: auto;
 	height: 320px;
 	width: 165px;
 	background-color: 
@@ -204,7 +204,7 @@ div h3 {
 }
 
 .right-center ol {
-	overflow: scroll;
+	overflow: auto;
 	height: 320px;
 	width: 160px;
 

@@ -185,7 +185,7 @@ div h3 {
 }
 
 .left-center ol {
-	overflow: auto;
+	overflow: scroll; 
 	height: 320px;
 	width: 165px;
 	background-color: 
@@ -204,7 +204,7 @@ div h3 {
 }
 
 .right-center ol {
-	overflow: auto;
+	overflow: scroll;
 	height: 320px;
 	width: 160px;
 
@@ -365,8 +365,8 @@ button {
 
 @media screen and (min-device-width:1300px) and (max-device-width:1920px)  {
 	* {
-	width: 100%;
-	border: 1px solid black;
+	/*width: 100%;*/
+	/*border: 1px solid black;*/
 	-moz-box-sizing: border-box; 
   -webkit-box-sizing: border-box; 
   box-sizing: border-box; 
